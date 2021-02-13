@@ -1,7 +1,7 @@
 {
-  "name": "deep-thoughts",
+  "name": "ad-trumpet",
   "version": "1.0.0",
-  "description": "MERN (MongoDB, Express.js, React, and Node.js) stack social network",
+  "description": "MERNG (MongoDB, Express.js, React, Node.js and GraphQL) stack social network",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -12,7 +12,7 @@
     "heroku-postbuild": "cd client && npm run build && cd ../server && npm run seed"
   },
   "keywords": [],
-  "author": "Matt Brassey",
+  "author": "Matt Brassey & Jason Romero",
   "license": "CC0-1.0",
   "dependencies": {
     "if-env": "^1.0.4"
